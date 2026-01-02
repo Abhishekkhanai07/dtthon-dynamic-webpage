@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DTthon – Journey Board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <img src="https://deepthought.education/assets/images/logo/logo.svg" class="logo" />
+  <div class="header-icons">
+    <span>🔔</span>
+    <span>👤</span>
+  </div>
+</header>
+
+<div class="layout">
+
+  <!-- LEFT JOURNEY BOARD -->
+  <aside class="journey-board">
+    <h3>Journey Board</h3>
+
+    <button class="task-btn">
+      Explore the world of management
+    </button>
+
+    <ul class="asset-list">
+      <li>Technical Project Management</li>
+      <li>Threadbuild</li>
+      <li>Structure your pointers</li>
+      <li>4SA Method</li>
+    </ul>
+  </aside>
+
+  <!-- RIGHT CONTENT -->
+  <main class="content">
+
+    <h2 class="task-title">Technical Project Management</h2>
+    <p class="task-desc">
+      As a project manager, you play an important role in leading a project
+      through initiation, planning, execution, monitoring, controlling and completion.
+    </p>
+
+    <div class="asset-grid" id="assetGrid">
+      <!-- assets rendered by JS -->
+    </div>
+
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
